@@ -15,7 +15,7 @@ public class TestandoListas {
 
         // qual metodo chamar aqui?
         // cursos.remove(curso2);
-        cursos.remove(2);
+        cursos.remove(1);
 
         System.out.println(cursos);
     }

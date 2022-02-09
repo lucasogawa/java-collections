@@ -1,14 +1,19 @@
+import java.util.*;
+
 public class TestaCurso {
 
     public static void main(String[] args) {
+        // crie um novo curso passando o nome e instrutor no construtor
+        Curso curso = new Curso("Java Collections", "Paulo");
 
-        Curso javaColecoes = new Curso("Dominando as colecoes do Java",
-                "Paulo Silveira");
+        // chame o getter da lista de aulas do curso e imprima o resultado
+        System.out.println(curso.getAulas());
 
-        javaColecoes.adiciona(new Aula("Trabalhando com ArrayList", 21));
-        javaColecoes.adiciona(new Aula("Criando uma Aula", 20));
-        javaColecoes.adiciona(new Aula("Modelando com colecoes", 24));
+        // adicione novas aulas na classe Curso
+        curso.getAulas().add(new Aula("Aula 1", 1));
+        curso.getAulas().add(new Aula("Aula 2", 2));
+        curso.getAulas().add(new Aula("Aula 3", 3));
 
-        System.out.println(javaColecoes.getAulas());
+        System.out.println(curso.getAulas());
     }
 }

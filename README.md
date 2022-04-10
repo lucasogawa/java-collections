@@ -1,6 +1,6 @@
-# Curso Java Collections: Dominando Listas, Sets e Mapas
+# Java Collections: Dominating Lists, Sets and Maps
 
-Este repositório contém códigos desenvolvidos durante a realização do **[Alura - Curso Java Collections: Dominando Listas, Sets e Mapas](https://www.alura.com.br/conteudo/java-collections)** ministrado por **Paulo Silveira**.
+This repository contains code developed during the course **[Java Collections: Dominating Lists, Sets and Maps](https://www.alura.com.br/conteudo/java-collections)** by **Paulo Silveira**.
 
 Content:
 - ArrayList
